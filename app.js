@@ -83,8 +83,10 @@ function init() {
     });
     // build plot with first sample    
     var sampleOne = sampleNames[0];    
-    // buildCharts(firstSample);    
-    buildMetadata(sampleOne);  
+    buildCharts(sampleOne);    
+    buildMetadata(sampleOne); 
+    
+    
   });}
 
 
